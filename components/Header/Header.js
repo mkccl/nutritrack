@@ -16,9 +16,9 @@ export const Header = () => {
                     <h1 className="logo mb-0">
                         <Link href="/">
                             <Image
-                                src="/nutritrack.svg"
+                                src="/Logo.png"
                                 alt="logo"
-                                className="h-6 w-auto"
+                                className="h-9 w-auto"
                                 height="24"
                                 width="100"
                                 priority
@@ -31,10 +31,10 @@ export const Header = () => {
                     <ButtonGroup className="hidden md:block">
                         <a
                             role="button"
-                            href="https://github.com/christian-luntok/nutritrack"
-                            className="btn btn--secondary ml-4"
+                            href="https://regiobiomatch.de"
+                            className="inline-flex w-full cursor-pointer items-center justify-center gap-3 rounded-lg px-8 py-2 font-semibold  text-black transition-colors duration-300 hover:bg-[#29784D] md:w-auto bg-[#E9FFC2] ml-4"
                         >
-                            Get Template
+                            Einloggen
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a>
                     </ButtonGroup>
